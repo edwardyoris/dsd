@@ -1,0 +1,47 @@
+body, p, h1 {
+    margin: 0;
+}
+
+.App {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tarjeta {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 20%);
+    max-width: 400px;
+  }
+
+  .tarjeta__p{
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .tarjeta__h1{
+    margin-left: auto;
+    width: max-content;
+    margin-bottom: 5px;
+  }
+
+  .tarjeta__btn{
+    display: block;
+    margin-left: auto;
+    color: white;
+    border: none;
+    width: 24px;
+    border-radius: 20%;
+    transition: filter 100ms ease, transform 100ms ease;
+    
+  }
+
+  .tarjeta__btn:hover{
+    filter: brightness(1.2);
+    transition: filter 100ms ease, transform 100ms ease;
+  }
+  
